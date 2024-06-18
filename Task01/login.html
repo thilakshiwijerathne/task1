@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>SignUp</title>
+	
+	
+	<link rel="stylesheet" href="login.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<script type="text/javascript" src="signup.js">
+	</script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="form-box">
+			<i style="--clr:#C0C0C0;"></i>
+  			<i style="--clr:#C0C0C0;"></i>
+			<form action="login.php" name="Login" onsubmit="return validation()" method="post">
+				<h1> Login </h1>
+				
+				<p id="result"></p>
+				
+				<div class="input-box">
+					<i1 class='bx bxs-user'></i1>
+					<input type="text" name="name" placeholder="User Name">
+				</div>
+		
+				<div class="input-box">
+					<i1 class='bx bxs-lock-alt'></i1>
+					<input type="password" name="password" placeholder="Password">
+				</div>
+				
+				<div class="button">
+					<a href="cart.html">
+					<input type="submit" class="btn" onclick="validation()"  value="Login">
+					</a>
+				</div>
+				
+				<div class="group">
+					<span> <a href ="#">Forget-password</a></span>
+					
+					<span><a href="SignUp.html">SignUp</a></span>
+				</div>
+				
+			</form>
+		</div>
+</body>
+</html>
